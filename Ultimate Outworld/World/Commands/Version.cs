@@ -12,7 +12,9 @@ namespace Ultimate_Outworld.World.Commands {
         }
 
         public void Execute(Mobiles.BaseMobile mobile, string args) {
-            throw new NotImplementedException();
+            if (mobile.AccessLevel < RequiredAccessLevel) {
+                return;
+            }
         }
 
 

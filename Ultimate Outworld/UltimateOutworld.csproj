@@ -41,16 +41,22 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="World\BaseWorld.cs" />
+    <Compile Include="World\Common\ObjectProperty.cs" />
     <Compile Include="World\Enums.cs" />
     <Compile Include="World\Commands\ICommand.cs" />
     <Compile Include="World\Commands\Version.cs" />
     <Compile Include="World\Coordinates.cs" />
+    <Compile Include="World\Helpers\Distance.cs" />
+    <Compile Include="World\Interfaces\IHasProperties.cs" />
+    <Compile Include="World\Interfaces\ITangible.cs" />
+    <Compile Include="World\Items\BaseItem.cs" />
     <Compile Include="World\IWorld.cs" />
     <Compile Include="World\Mobiles\BaseMobile.cs" />
     <Compile Include="World\Mobiles\NonPlayerCharacter.cs" />
     <Compile Include="World\Networking\Messaging.cs" />
     <Compile Include="World\Time\IWorldClock.cs" />
     <Compile Include="World\Time\WorldClock.cs" />
+    <Compile Include="World\World.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="World\Weather\" />

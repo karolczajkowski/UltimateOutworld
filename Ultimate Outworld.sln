@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UltimateOutworld", "Ultimate Outworld\UltimateOutworld.csproj", "{BC0C194D-A05F-40B4-8AAB-F989160B797E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UltimaOutworld.Networking", "UltimaOutworld.Networking\UltimaOutworld.Networking.csproj", "{3A981B9D-6ECC-4921-8663-E1D94A8702D8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{BC0C194D-A05F-40B4-8AAB-F989160B797E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BC0C194D-A05F-40B4-8AAB-F989160B797E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BC0C194D-A05F-40B4-8AAB-F989160B797E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A981B9D-6ECC-4921-8663-E1D94A8702D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A981B9D-6ECC-4921-8663-E1D94A8702D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A981B9D-6ECC-4921-8663-E1D94A8702D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A981B9D-6ECC-4921-8663-E1D94A8702D8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Ultimate_Outworld.World.Interfaces;
 
 namespace Ultimate_Outworld.World.Mobiles {
     class NonPlayerCharacter : BaseMobile {
@@ -11,5 +12,15 @@ namespace Ultimate_Outworld.World.Mobiles {
         public override void SetAccessLevel(AccessLevel level) {
             return;
         }
+
+        public override bool Die(ITangible killer) {
+            return base.Die(killer);
+        }
+
+        public NonPlayerCharacter(Coordinates coords) : base(coords) {
+            
+        }
+
+    }
     }
 }
