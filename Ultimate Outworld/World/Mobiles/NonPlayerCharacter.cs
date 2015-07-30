@@ -22,5 +22,4 @@ namespace Ultimate_Outworld.World.Mobiles {
         }
 
     }
-    }
 }

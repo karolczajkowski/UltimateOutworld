@@ -22,7 +22,9 @@ namespace Ultimate_Outworld.World.Mobiles {
         public virtual bool SetCoordinates(Coordinates coords) {
             if (CanSetCoordinates(coords)) {
                 Coordinates = coords;
+                return true;
             }
+            return false;
         }
         public virtual bool CanSetCoordinates(Coordinates coords) {
             //TODO: Put logic here whether you can set the coords or not.
@@ -53,6 +55,7 @@ namespace Ultimate_Outworld.World.Mobiles {
 
         public virtual bool Die(ITangible killer) {
             SetObjProperty("Killer", killer.SerialNumber.ToString());
+            return true;
         }
 
         public virtual CreationType CreationType {

@@ -35,17 +35,25 @@ namespace Ultimate_Outworld.World.Items {
             if (!IsAccessible(user)) {
                 return false;
             }
+            return true;
         }
 
         public virtual bool IsAccessible(BaseMobile mobile) {
             if (Distance.Calculate(mobile, this) > 4) {
                 return false;
             }
+            return true;
         }
 
 
         public IList<Common.ObjectProperty> Properties {
             get { return _properties; }
+        }
+
+        public CreationType CreationType {
+            get {
+                return CreationType.Item;
+            }
         }
 
         public virtual string GetObjProperty(string key) {

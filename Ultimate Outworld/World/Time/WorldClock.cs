@@ -10,7 +10,7 @@ namespace Ultimate_Outworld.World.Time {
         private long _ticks;
 
         public WorldClock(IWorld world) {
-            _ticks = world.Deserialize("Time")
+            _ticks = 0;
         }
 
         public long Ticks {
